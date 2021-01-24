@@ -1,0 +1,32 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+    
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    z-index: 3;
+}
+
+
+
+canvas {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    
+}
+
+.subj {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    z-index: 5;
+}
